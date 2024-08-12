@@ -33,19 +33,19 @@ Status: In progress
 
 - 출사표 전문 입력 가능함
 
-![plot_1.png]()
+![plot_1.png](output/plot_1.png)
 
 `Sentence-Roberta-Multitask`
 
 - 출사표 2~3 문단 입력 가능함
 
-![plot_2.png]()
+![plot_2.png](output/plot_2.png)
 
 `Multilingual-E5-Large`
 
 - 출사표 2~3 문단 입력 가능함
 
-![plot_3.png]()
+![plot_3.png](output/plot_3.png)
 
 ### MTEB 평가
 

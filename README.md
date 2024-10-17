@@ -1,6 +1,6 @@
 # 한글 텍스트 임베딩 모델 리더보드
 
-Date: 2024년 8월 12일
+Date: 2024년 10월 17일
 Status: In progress
 
 ### Agenda
@@ -31,7 +31,7 @@ Status: In progress
 | 8 | bge-m3 | 2.11 | 1024 | 8192 | BAAI/bge-m3 |
 | 9 | ko-sroberta-multitask  | 1.04 | 768 | 512 | jhgan/ko-sroberta-multitask |
 | 10 | bge-m3-korean  |  | 1024 | 512 | upskyy/bge-m3-korean |
-
+| * | KoE5 |  | 1024 | 514 | nlpai-lab/KoE5 |
 
 ### 한글 텍스트 입력 범위
 
@@ -92,6 +92,7 @@ Status: In progress
 | 8 | bge-m3 | 94.53 | 95.81 | 63.48 | 10.92 | 38.04 | 61.20 | 59.98 | 72.29 | 83.13 |
 | 9 | ko-sroberta-multitask | 69.66 | 57.56 | 61.62 | 8.93 | 36.41 | 65.64 | 48.33 | 60.98 | 85.39 |
 | 10 | bge-m3-korean | 93.32 | 94.82 | 58.89 | 9.21 | 23.967 | 64.13 | 52.44 | 67.94 | 85.43 |
+| * | KoE5 | 93.00 | 93.92 | 64.56 | 11.57 | 43.24 | 57.37 | 54.14 | 73.69 | 82.15 |
 
 | no. | Model | Tatoeba BitextMining kor-eng | Flores BitextMining eng-kor  | Flores BitextMining kor-eng | NTREX BitextMining eng-kor | NTREX BitextMining kor-eng | IWSLT2017 BitextMining eng-kor | IWSLT2017 BitextMining kor-eng | MassiveIntent Classification | MassiveScenario Classification | Klue-TC Classification | SIB200 Classification | MultilingualSentiment Classification | KorHate Classification | KorSarcasm Classification  | KorHateSpeechML MultiLabel Classification | SIB200ClusteringS2S Clustering | Klue-NLI PairClassification | PawsX PairClassification | MIRACL Reranking | Ko-StrategyQA Retrieval | XPQA Retrieval | PublicHealthQA Retrieval | Belebele Retrieval | MIRACL Retrieval | STS17 STS  | KorSTS STS | Klue-STS STS  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -105,4 +106,5 @@ Status: In progress
 | 8 | bge-m3 | 90.44 | 99.86 | 100.00 | 98.60 | 99.08 | 88.96 | 88.59 | 66.53 | 72.90 | 54.67 | 71.91 | 78.16 | 43.38 | 56.79 | 10.92 | 38.04 | 70.05 | 52.34 | 59.98 | 79.40 | 36.15 | 80.41 | 93.18 | 70.14 | 81.42 | 80.26 | 87.70 |
 | 9 | ko-sroberta-multitask | 61.05 | 72.31 | 86.39 | 52.16 | 71.95 | 48.20 | 59.26 | 64.80 | 70.12 | 52.10 | 69.75 | 73.82 | 43.67 | 57.11 | 8.93 | 36.41 | 78.38 | 52.89 | 48.33 | 65.10 | 27.96 | 69.21 | 81.63 | 36.69 | 86.46 | 85.58 | 84.13 |
 | 10 | bge-m3-korean | 89.36 | 99.73 | 100.00 | 98.21 | 98.20 | 86.54 | 85.75 | 66.28 | 72.80 | 41.23 | 59.95 | 74.98 | 41.34 | 55.69 | 9.21 | 23.97 | 75.95 | 52.32 | 52.44 | 75.27 | 31.66 | 77.55 | 87.31 |  | 85.15 | 83.34 | 87.81 |
+| * | KoE5 | 89.41 | 99.47 | 99.73 | 96.78 | 97.39 | 85.51 | 85.47 | 66.35 | 74.13 | 63.74 | 74.85 | 73.05 | 43.92 | 55.90 | 11.57 | 43.24 | 61.71 | 53.03 | 54.14 | 79.76 | 36.13 | 84.49 | 94.41 |  | 81.35 | 79.45 | 85.65 |
 
